@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My Landing Page Starter</title>
+    <link>https://dkebler.github.io/landingpage-starter/</link>
+    <description>Recent content on My Landing Page Starter</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://dkebler.github.io/landingpage-starter/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://dkebler.github.io/landingpage-starter/sections/hero/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dkebler.github.io/landingpage-starter/sections/hero/</guid>
+      <description>Custom Hero you can put in whatever you want in here</description>
+    </item>
+    
+    <item>
+      <title>What?</title>
+      <link>https://dkebler.github.io/landingpage-starter/sections/what/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dkebler.github.io/landingpage-starter/sections/what/</guid>
+      <description>Quick If you haven&amp;rsquo;t seen the landing page guide yet go there NOW. It explains how to get and use this starter.
+ See the Landing Page Guide NOW  </description>
+    </item>
+    
+    <item>
+      <title>Kitchen Sink of Markdown</title>
+      <link>https://dkebler.github.io/landingpage-starter/sections/kitchen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dkebler.github.io/landingpage-starter/sections/kitchen/</guid>
+      <description>A terse review of markdown. Just type from left in any markdown file it will be paragraph style. It will wrap and is left justified by default
+ Header 1 Header 2 Header 3 Header 4 Header 5 Header 6  # Header 1 ## Header 2 ### Header 3 #### Header 4 ##### Header 5 ###### Header 6   italics or
+italics
+bold or
+bold
+both
+  *italics* or _italics_ **bold** or __bold__ _**both**_   When your section is getting too long consider putting the rest of the content in a modal file in the content/modals directory.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://dkebler.github.io/landingpage-starter/sections/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dkebler.github.io/landingpage-starter/sections/about/</guid>
+      <description>This is a webpage about a generator used to generate this webpage about a generator&amp;hellip;. well you get the idea.
+The generator is 100% free open source software, free for use. It was used to build this webpage and the guide webpage as well. So see the guide webpage to get started.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://dkebler.github.io/landingpage-starter/sections/footer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dkebler.github.io/landingpage-starter/sections/footer/</guid>
+      <description> This is a footer
+ </description>
+    </item>
+    
+    <item>
+      <title>Comments</title>
+      <link>https://dkebler.github.io/landingpage-starter/sections/comments/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dkebler.github.io/landingpage-starter/sections/comments/</guid>
+      <description>Here is where you could add a disqus comment section if you have an account and made a disqus shortname for your comments
+{{&amp;lt; disqus &amp;quot;my disqus shorname here&amp;quot; &amp;gt;}}  </description>
+    </item>
+    
+    <item>
+      <title>Example Modal</title>
+      <link>https://dkebler.github.io/landingpage-starter/modals/test/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dkebler.github.io/landingpage-starter/modals/test/</guid>
+      <description>Here is how you can add additional content to your page without having it take up space&amp;hellip;use a modal!
+To do that make a .md file in the content/modals directory.
+Put any markdown content in it including shortcodes.
+Then just link to it in a section markdown file using the link shortcode.
+example
+{{&amp;lt; link url=&amp;quot;#modal-test&amp;quot; text=&amp;quot;A test modal&amp;quot; type=&amp;quot;btn&amp;quot; display=&amp;quot;modal&amp;quot; &amp;gt;}}  where there is a file test.md in the content/modals directory</description>
+    </item>
+    
+    <item>
+      <title>More Markdown</title>
+      <link>https://dkebler.github.io/landingpage-starter/modals/kitchen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dkebler.github.io/landingpage-starter/modals/kitchen/</guid>
+      <description>And now for the rest of the show  One Two Three   * One * Two * Three    Buy flour and salt Mix together with water Bake   1. Buy flour and salt 1. Mix together with water 1. Bake   Monspaced Font Box:
+Monospaced type box primarily for showing code Indent three or enclose in```  or put it inline like this</description>
+    </item>
+    
+  </channel>
+</rss>

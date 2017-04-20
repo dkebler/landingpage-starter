@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://dkebler.github.io/landingpage-starter/sections/hero/</loc>
+  </url>
+  
+  <url>
+    <loc>https://dkebler.github.io/landingpage-starter/sections/what/</loc>
+  </url>
+  
+  <url>
+    <loc>https://dkebler.github.io/landingpage-starter/sections/kitchen/</loc>
+  </url>
+  
+  <url>
+    <loc>https://dkebler.github.io/landingpage-starter/sections/about/</loc>
+  </url>
+  
+  <url>
+    <loc>https://dkebler.github.io/landingpage-starter/sections/footer/</loc>
+  </url>
+  
+  <url>
+    <loc>https://dkebler.github.io/landingpage-starter/sections/comments/</loc>
+  </url>
+  
+  <url>
+    <loc>https://dkebler.github.io/landingpage-starter/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://dkebler.github.io/landingpage-starter/modals/test/</loc>
+  </url>
+  
+  <url>
+    <loc>https://dkebler.github.io/landingpage-starter/modals/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://dkebler.github.io/landingpage-starter/modals/kitchen/</loc>
+  </url>
+  
+  <url>
+    <loc>https://dkebler.github.io/landingpage-starter/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://dkebler.github.io/landingpage-starter/sections/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://dkebler.github.io/landingpage-starter/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

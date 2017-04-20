@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="generator" content="Hugo 0.20.1" />
+    <title>My Landing Page Starter</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta http-equiv="Cache-Control" content="max-age= 3600" />
+    <base href="https://dkebler.github.io/landingpage-starter">
+
+    
+<link href="https://cdn.jsdelivr.net/fontawesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+
+<link href="//fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+ 
+<link href="//fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet" type="text/css">
+
+
+
+
+  
+  <link href="//fonts.googleapis.com/css?family=Rubik" rel="stylesheet" type="text/css">
+  
+
+  
+
+  
+  <link href="//fonts.googleapis.com/css?family=Open%20Sans" rel="stylesheet" type="text/css">
+  
+
+  
+  <link href="//fonts.googleapis.com/css?family=Righteous" rel="stylesheet" type="text/css">
+  
+
+  
+
+  
+
+
+
+    
+
+<link href="https://cdn.jsdelivr.net/lightgallery/1.3.9/css/lightgallery.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/lightgallery/1.3.9/css/lg-transitions.min.css" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.perfect-scrollbar/0.6.16/css/perfect-scrollbar.min.css" type="text/css" media="screen" />
+
+
+
+
+
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/styles/default.min.css">
+
+
+<link href="https://dkebler.github.io/landingpage-starter/css/base.css" rel="stylesheet">
+
+
+<link href="https://dkebler.github.io/landingpage-starter/css/page.css" rel="stylesheet">
+
+
+<link href="https://dkebler.github.io/landingpage-starter/css/navbar.css" rel="stylesheet">
+
+
+<link href="https://dkebler.github.io/landingpage-starter/css/responsive.css" rel="stylesheet">
+
+
+
+ <style>
+
+
+  body { font-family:Rubik,Helvetica,Arial,sans-serif; }
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ .nav-bar__menu-item:hover {color: darkgreen; }
+ .nav-bar, .section--footer { background-color: darkgreen;  }
+ 
+
+ 
+
+ 
+  .nav-bar__logo, .nav-bar__menu, .nav-bar__menu-button, .section--footer { color: ivory;  }
+  .nav-bar__menu-item:hover { background-color: ivory; }
+ 
+
+
+@media only screen and (max-width: 400px) {
+ .nav-bar__logo {
+   text-indent: -9999px;
+   line-height: 0;  
+ }
+
+ .nav-bar__logo::after {
+   content: "My Landing Page";
+   text-indent: 0;
+   display: block;
+   line-height: initial;  
+ }
+ }
+ 
+
+    
+
+ 
+
+  
+     
+  
+  #hero {
+    background-image: url("https://dkebler.github.io/landingpage-starter/images/green-landscape-hero.jpg");
+  }
+
+  
+  #hero > .section__container { font-family:Open Sans,Helvetica,Arial,sans-serif;}
+  
+
+  
+  #hero { color: ivory; }
+  
+
+  
+
+  
+
+   
+   #hero > .section__container {
+     text-shadow:
+      -2px -2px 0 black,
+       2px -2px 0 black,
+       -2px 2px 0 black,
+        2px 2px 0 black;
+    }
+   
+
+   
+
+   
+
+
+  
+  #hero h1, #hero h2, #hero h3 { font-family: "Righteous",Helvetica,Arial,sans-serif; }
+  
+
+  
+  #hero h1 { color: darkgreen; }
+  
+
+  
+  #hero h1 { font-size: 3.5em; }
+  
+
+  
+  #hero h2 { color: springgreen; }
+  
+
+  
+  #hero h2 { font-size: 3em; }
+  
+
+  
+  #hero h3 { color: seagreen; }
+  
+
+  
+  #hero h3 { font-size: 2em; }
+  
+
+  
+  #hero h4 { color: lightgreen; }
+  
+
+  
+  #hero h4 { font-size: 1.5em; }
+  
+
+  
+  #hero hr { border-width: 3px; }
+  
+
+  
+  #hero hr { border-top-color: darkgreen; }
+  
+
+     
+
+
+  
+
+    
+
+    
+
+    
+    .section__content :not(.highlight) ul > li::before {
+      content: "";
+      }
+
+    
+
+    
+    .section--odd, .section--even .btn {
+      color: seagreen;
+      background-color: ivory;
+    }
+
+    
+
+    
+    .section--even, .section--odd .btn {
+      color: bisque;
+      background-color: seagreen;
+    }
+    
+
+    
+    .section--footer {
+      color: darkolivegreen;
+      background-color: lightgreen;
+    }
+    
+
+    
+    .section--comments {
+      color: darkolivegreen;
+      background-color: palegreen;
+    }
+    
+
+     
+
+
+  
+
+  
+
+  
+   .section__container--modal { color: ivory;  }
+  
+
+  
+  .section__container--modal { background-color: seagreen;  }
+  
+
+  
+
+  
+
+
+
+    
+
+
+  
+
+  
+
+  
+
+    
+
+   
+
+ </style>
+
+
+
+
+
+</head>
+
+<body>
+
+  
+<div id="nav-bar" class="nav-bar">
+    
+        <div class="nav-bar__header">
+            <a href="#hero" class="nav-bar__logo"> My Landing Page Starter </a>
+            <div class="nav-bar__menu-button"> <i class="fa fa-bars"></i></div>
+        </div>
+        
+            <ul class="nav-bar__menu hide-menu">
+                
+                
+                
+                
+                
+                <li class="nav-bar__menu-item">
+                      <a href="#what">
+                      What?
+                    </a>
+                </li>
+                 
+                
+                
+                
+                <li class="nav-bar__menu-item">
+                      <a href="#kitchen">
+                      Kitchen-Sink
+                    </a>
+                </li>
+                 
+                
+                
+                
+                <li class="nav-bar__menu-item">
+                      <a href="#about">
+                      About
+                    </a>
+                </li>
+                 
+                
+                
+                
+                
+                
+             </ul>
+        
+      
+</div>
+<div class="nav-bar-spacer"></div>
+
+
+
+<section id="hero" class="section section--hero">
+	<div class="section__container" >
+			<div class="section__content section__content--hero" >
+				
+					<h1>Landing Page Starter</h1>
+					<h2>Generated From</h2>
+					<h3>Hugo Flex Theme</h3>
+					<hr>
+					
+					<h4> Customizable</h4>
+					
+					<h4> Add Your Sections</h4>
+					
+					<h4> Insert Your Content</h4>
+					
+					<h4> Super Noob Friendly</h4>
+					
+					<h4> See the Guide!</h4>
+					
+				
+			</div>
+	</div>	
+</section>
+
+
+<main class="sections">
+
+
+
+
+
+<section id="what" class="section section--what section--odd">
+	<div class="section__container">
+		<div class="section__headline section__headline--what">
+			<h1>What?</h1>
+		</div>
+		<div class="section__content section-content--what"  >
+			<p><strong>Quick</strong> If you haven&rsquo;t seen the landing page guide yet go there NOW. It explains how to get and use this starter.</p>
+
+
+
+
+
+    
+  
+
+
+<a
+
+
+ class="box box--btn btn btn--regular"
+href="https://dkebler.github.io/landingpage-guide"
+>
+<i class="btn__icon fa fa-eye"></i>
+<div class="btn__text">See the Landing Page Guide NOW</div>
+
+</a>
+
+
+		</div>
+	</div>
+</section>
+
+
+
+<section id="kitchen" class="section section--kitchen section--even">
+	<div class="section__container">
+		<div class="section__headline section__headline--kitchen">
+			<h1>Kitchen Sink of Markdown</h1>
+		</div>
+		<div class="section__content section-content--kitchen"  >
+			
+
+<h3 id="a-terse-review-of-markdown">A terse review of markdown.</h3>
+
+<p>Just type from left in any markdown file it will be paragraph style.  It will wrap and is left justified by default</p>
+
+
+<div data-lorem=50w></div>
+
+
+<hr />
+
+
+<div class="box ">
+<div class="box box--column ">
+<h1 id="header-1">Header 1</h1>
+
+<h2 id="header-2">Header 2</h2>
+
+<h3 id="header-3">Header 3</h3>
+
+<h4 id="header-4">Header 4</h4>
+
+<h5 id="header-5">Header 5</h5>
+
+<h6 id="header-6">Header 6</h6>
+
+</div>
+
+<pre><code># Header 1
+## Header 2
+### Header 3
+#### Header 4
+##### Header 5
+###### Header 6
+</code></pre>
+
+</div>
+
+
+<hr />
+
+
+<div class="box ">
+<div class="box box--column ">
+<p><em>italics</em> or</p>
+
+<p><em>italics</em></p>
+
+<p><strong>bold</strong> or</p>
+
+<p><strong>bold</strong></p>
+
+<p><em><strong>both</strong></em></p>
+
+</div>
+
+<pre><code>  *italics* or
+
+  _italics_
+
+  **bold** or
+
+  __bold__
+
+  _**both**_
+</code></pre>
+
+</div>
+
+
+<hr />
+
+<p>When your section is getting too long consider putting the rest of the content in a modal file in the <code>content/modals</code> directory.  
+
+
+
+    
+  
+
+
+<a
+
+ modal
+
+href="#modal-test"
+>
+
+
+Here
+
+</a>
+ is how to do that</p>
+
+
+
+
+
+    
+  
+
+
+<a
+
+ modal
+
+href="#modal-kitchen"
+>
+
+
+so...see more markdown in action?
+
+</a>
+
+
+		</div>
+	</div>
+</section>
+
+
+
+<section id="about" class="section section--about section--odd">
+	<div class="section__container">
+		<div class="section__headline section__headline--about">
+			<h1>About</h1>
+		</div>
+		<div class="section__content section-content--about"  >
+			<p>This is a webpage about a generator used to generate this webpage about a generator&hellip;. well you get the idea.</p>
+
+<p>The generator is 100% free open source software, free for use.  It was used to build this webpage and the <a href="https://dkebler.github.io/landingpage-guide">guide webpage</a> as well.  So see the <a href="https://dkebler.github.io/landingpage-guide">guide webpage</a> to get started.</p>
+
+		</div>
+	</div>
+</section>
+
+
+
+<section id="footer" class="section section--footer section--even">
+	<div class="section__container">
+		<div class="section__headline section__headline--footer">
+			<h1></h1>
+		</div>
+		<div class="section__content section-content--footer"  >
+			
+<div class="box box--footer ">
+<p>This is a footer</p>
+
+</div>
+
+
+		</div>
+	</div>
+</section>
+
+
+
+<section id="comments" class="section section--comments section--odd">
+	<div class="section__container">
+		<div class="section__headline section__headline--comments">
+			<h1>Comments</h1>
+		</div>
+		<div class="section__content section-content--comments"  >
+			<p>Here is where you could add a <a href="https://disqus.com/">disqus</a> comment section if you have an account and made a disqus shortname for your comments</p>
+
+<pre><code>{{&lt; disqus &quot;my disqus shorname here&quot; &gt;}}
+</code></pre>
+
+		</div>
+	</div>
+</section>
+
+
+
+<div id="modal-test" class="section section--modal">
+	<div class="section__container	section__container--modal">
+		<div class="section__headline section__headline--modal">
+			<h1>Example Modal</h1>
+		</div>
+		<div class="section__content section__content--modal"  >
+			<p>Here is how you can add additional content to your page without having it take up space&hellip;use a modal!</p>
+
+<p>To do that make a .md file in the <code>content/modals</code> directory.</p>
+
+<p>Put any markdown content in it including shortcodes.</p>
+
+<p>Then just link to it in a section markdown file using the link shortcode.</p>
+
+<p><strong>example</strong></p>
+
+<pre><code>{{&lt; link url=&quot;#modal-test&quot; text=&quot;A test modal&quot; type=&quot;btn&quot; display=&quot;modal&quot; &gt;}}
+</code></pre>
+
+<p>where there is a file <code>test.md</code> in the <code>content/modals directory</code></p>
+
+<p>and the url is <code>url=&quot;#modal-&lt;modal file name without .md&gt;&quot;</code>`</p>
+
+		</div>
+	</div>
+</div>
+
+<div id="modal-kitchen" class="section section--modal">
+	<div class="section__container	section__container--modal">
+		<div class="section__headline section__headline--modal">
+			<h1>More Markdown</h1>
+		</div>
+		<div class="section__content section__content--modal"  style="align-items: center;" >
+			
+
+<h3 id="and-now-for-the-rest-of-the-show">And now for the rest of the show</h3>
+
+
+<div class="box ">
+<div class="box box--column ">
+<ul>
+<li>One</li>
+<li>Two</li>
+<li>Three</li>
+</ul>
+
+</div>
+
+<pre><code class="language-markdown">* One
+* Two
+* Three
+</code></pre>
+
+</div>
+
+
+<hr />
+
+
+<div class="box ">
+<div class="box box--column ">
+<ol>
+<li>Buy flour and salt</li>
+<li>Mix together with water</li>
+<li>Bake</li>
+</ol>
+
+</div>
+
+<pre><code class="language-markdown">1. Buy flour and salt
+1. Mix together with water
+1. Bake
+</code></pre>
+
+</div>
+
+
+<hr />
+
+<p>Monspaced Font Box:</p>
+
+<pre><code class="language-markdown">Monospaced type box primarily for showing code
+Indent three or enclose in```
+</code></pre>
+
+<p>or put it <code>inline</code> like this</p>
+
+<pre><code class="language-markdown">or put it `inline` like this
+</code></pre>
+
+<hr />
+
+<p>a separator line<br />
+    * * *</p>
+
+<hr />
+
+<p>This is <a href="http://example.com" title="example">an example</a> simple markdown link.</p>
+
+<p><a href="http://example.com">This link</a> has no title attr.</p>
+
+<p>This is <a href="http://example.com" title="Optional Title">an example</a> reference-style link.</p>
+
+<pre><code>This is [an example](http://example.com &quot;Example&quot;) link.
+
+[This link](http://example.com) has no title attr.
+
+This is [an example] [id] reference-style link.
+
+[id]: http://example.com &quot;Optional Title&quot;
+</code></pre>
+
+<p>Use the link plugin shortcode for doing more fancy things.</p>
+
+
+
+
+
+    
+  
+
+
+
+
+<a
+
+
+ class="box box--btn btn btn--regular"
+href="javascript:void( window.open('https://dkebler.github.io/landingpage-guide', 'blank', 'scrollbars=yes, toolbar=no, width=1000 ' ))"
+>
+<i class="btn__icon fa fa-space-shuttle"></i>
+<div class="btn__text">A Button Styled Link with icon opens in window</div>
+
+</a>
+
+
+<hr />
+
+<p>You can put images from external sources in this way</p>
+
+<p><img src="http://placehold.it/200x50" alt="Alt Text" title="Image Title" /></p>
+
+<pre><code>![Alt Text](http://placehold.it/200x50 &quot;Image Title&quot;)
+</code></pre>
+
+<p>but it&rsquo;s probably better to use the plugin shortcode for your images</p>
+
+
+
+
+<div class="box box--column box--image">
+
+  <div class="box__title">Where I Want To Be</div>
+  
+
+<img src="https://dkebler.github.io/landingpage-starter/images/green-landscape.jpg" />
+
+
+<div class="box__caption">Sure is Green</div>
+
+</div>
+
+
+<pre><code>{{&lt; image filename=&quot;green-landscape.jpg&quot; title=&quot;Where I Want To Be&quot; caption=&quot;Sure is Green&quot; &gt;}}
+</code></pre>
+
+		</div>
+	</div>
+</div>
+
+
+</main>
+
+
+<script src="https://cdn.jsdelivr.net/jquery/3.1.1/jquery.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/g/lightgallery,lg-autoplay,lg-pager,lg-thumbnail,lg-video"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.perfect-scrollbar/0.6.16/js/perfect-scrollbar.jquery.min.js"></script>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/highlight.min.js"></script>
+
+
+<script src="https://dkebler.github.io/landingpage-starter/js/util.js"></script>
+
+<script src="https://dkebler.github.io/landingpage-starter/js/fitToWindow.js"></script>
+<script src="https://dkebler.github.io/landingpage-starter/js/flowType.js"></script>
+
+<script src="https://dkebler.github.io/landingpage-starter/js/youtube.js"></script>
+
+<script src="https://dkebler.github.io/landingpage-starter/js/lorem.js"></script>
+
+
+
+<script src="https://dkebler.github.io/landingpage-starter/js/page.js"></script>
+
+
+<script src="https://dkebler.github.io/landingpage-starter/js/docready.js"></script>
+
+
+
+
+
+
+<script>
+$(document).ready(function () {
+  
+  lightgallery('#photos')
+});
+</script>
+
+
+
+<script>
+$(document).ready(function () {
+  lightgallery('.box--image')
+});
+</script>
+
+</body>
+</html>
