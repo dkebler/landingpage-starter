@@ -3,6 +3,9 @@
 weight = 2000
 Title = "Comments"
 navbar = false
-hidden = true
+# hidden = true
 +++
-{{< disqus "landingpage-guide" >}}
+Here is where you could add a [disqus](https://disqus.com/) comment section if you have an account and made a disqus shortname for your comments
+```
+{{</* disqus "my disqus shorname here" */>}}
+```

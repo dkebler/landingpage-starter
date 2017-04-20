@@ -4,9 +4,12 @@
 weight = 1
 # Title = "Big Bad Hero"  
 navbar = false
-hidden = true
+## if you keep this hidden with custom_hero=true then you can build a page with no hero.
+## alternivetly you can just delete this file
+## otherwise comment out the next line to use this custom hero section
+hidden = true  
 +++
 
 # Custom Hero
 
-you can put in whatever you want here in a hero.md file
+you can put in whatever you want in here  

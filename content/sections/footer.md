@@ -1,7 +1,7 @@
 +++
 weight = 1000
 navbar = false
-hidden = true
+#hidden = true
 +++
 {{% box footer %}}
 This is a footer
