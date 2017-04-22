@@ -143,7 +143,7 @@
 /* ----------------
  	Hero Section
 ---------------- */
-#hero {
+.section--hero {
   background-size: cover;
   background-position: center;
   display: flex;
@@ -152,18 +152,18 @@
   width: 100vw;
 }
 
-#hero .section-content--hero {
+.section--hero .section-content--hero {
   text-align: center;
   line-height: 1;
 }
 
 /*mobile first*/
-#hero h1,
-#hero h2,
-#hero h3,
-#hero h4,
-#hero h5,
-#hero h6 {
+.section--hero h1,
+.section--hero h2,
+.section--hero h3,
+.section--hero h4,
+.section--hero h5,
+.section--hero h6 {
   line-height: 1;
 }
 
@@ -181,12 +181,22 @@
   padding-right: 0.5em;
 }
 
-.box--embed::before {
+.box--embed {
+  flex-direction: column;
+  flex-wrap: nowrap;
+  padding-bottom: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.box--embed::before,
+.box--image::before {
   content: "";
   height: 0.5em;
 }
 
-.box--embed::after {
+.box--embed::after,
+.box--image::after {
   content: "";
   height: 0.5em;
 }
@@ -217,7 +227,8 @@
 }
 
 .box--btn {
-  padding: 0.5rem;
+  padding: 0.5em;
+  margin-bottom: 0.5em;
 }
 
 .box--btn-bar > .box--btn {
@@ -236,6 +247,11 @@
 .btn--large .btn__text,
 .btn--large .btn__icon {
   font-size: 3rem;
+}
+
+.btn--small .btn__text,
+.btn--small .btn__icon {
+  font-size: 1rem;
 }
 
 .btn--circle {
@@ -263,22 +279,6 @@
 
 .box--avatar > a {
   opacity: 1;
-}
-
-/*may get rid of this after fixing embed shortcode */
-.box__embed {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-items: center;
-}
-
-.box--embed {
-  flex-direction: column;
-  flex-wrap: nowrap;
-  padding-bottom: 0;
 }
 
 .thumb--yt {
@@ -334,14 +334,14 @@
 
 code {
   font-size: 0.8em;
-  font-family: Inconsolata;
+  font-family: 'Roboto Mono', monospace;
   background-color: black;
   border-radius: 0.2em;
   color: white;
   padding-left: 0.2em;
   padding-right: 0.2em;
   padding-top: 0.05em;
-  padding-bottom: 0.3em;
+  padding-bottom: 0.07em;
   overflow-x: scroll;
 }
 

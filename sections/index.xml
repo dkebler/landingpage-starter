@@ -45,6 +45,16 @@ both
     </item>
     
     <item>
+      <title>Plugins</title>
+      <link>https://dkebler.github.io/landingpage-starter/sections/plugins/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dkebler.github.io/landingpage-starter/sections/plugins/</guid>
+      <description>Here are some of the plugins - shortcodes available in action. For details see the plugins section of the Landing Page Guide  The Image Plugin A super cool dude  as an avatar  google map embedded Iceland   Hot Place in A Cold Land  Here is some normally formatted text. Here I need a sentence to be in red  .
+A large button that opens google in a popup window  A small button that opens google a tab  A regular button that opens google normally   Brawndo  It&amp;#39;s got electrolytes  a paragraph of bogus filler text (lorem) for when you need to show a protype</description>
+    </item>
+    
+    <item>
       <title>About</title>
       <link>https://dkebler.github.io/landingpage-starter/sections/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
