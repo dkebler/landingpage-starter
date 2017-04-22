@@ -22,7 +22,7 @@ theme = "landingpage-flex-hugo-theme" ## don't change this
 ## This applies to all font= settings in this file
 # font = "Open Sans"  ## default Roboto, sets for entire site, can be specifically overridden below
 font = "Rubik"  ## alternative just uncomment
-# custom_css = ["custom.css", "custom-responsive.css"]   ## can add other files in array, make corresponding file in assets/css/
+custom_css = ["custom.css", "custom-responsive.css"]   ## can add other files in array, make corresponding file in assets/css/
 # custom_js = ["custom.js","custom-docready.js"]  ## can add other files in array, make corresponding file in assets/css/
 ## array of gallery names created
 ## each one should have a corresponding images folder and gallery-<name>.html shortcode in plugins/shortcodes

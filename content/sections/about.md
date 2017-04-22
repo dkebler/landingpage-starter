@@ -1,5 +1,5 @@
 +++
-weight = 30
+weight = 40
 title = "About"
 # link_text = ""
 # align = "left" # will force all elements to be aligned to left, default is centered
